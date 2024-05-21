@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body{
-    background-image: linear-gradient(to right, darkcyan, rgb(106, 242, 138));
+    background-image: linear-gradient(to right, rgb(78, 13, 121), rgb(0, 0, 0));
     color: powderblue;
     margin: 0;
     font-size: 30;
