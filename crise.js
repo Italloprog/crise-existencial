@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded',function(){
     document.getElementById('gacha1').addEventListener('click',gacha1)
     document.getElementById('gacha2').addEventListener('click',gacha2)
     document.getElementById('gacha3').addEventListener('click',gacha3)
+    document.getElementById('gacha4').addEventListener('click',gacha4)
 })
 
 function registralenda(){
@@ -72,7 +73,7 @@ function mostrarOp3(){
 }
 
 function gacha1(){
-    let resultados = ['enzo','gustav','saippe','anuah','blackoviutzs','wiguinho','rafael','itallo','veras','olivio','miguel','gekko','brimstone','mandinha','imundao','caracal','malenia','sukuna','gojo','itadori','robozao']
+    let resultados = ['enzo','el primo','gabigol','gustav','saippe','anuah','blackoviutzs','wiguinho','rafael','itallo','veras','olivio','miguel','gekko','brimstone','mandinha','imundao','caracal','malenia','sukuna','gojo','itadori','robozao']
     let sorteado = Math.floor(Math.random() * (resultados.length - 0) + 0)
 
     let div_result = document.getElementById('resultado1')
@@ -90,9 +91,15 @@ function gacha2(){
 function gacha3(){
     let resultados = ['valorant','shybuia','uninovafapi','pirata','casa do rafael','casa do enzo','sumoners rift','discord','alemanha nazista',
 'senzala','genshin impacto','tumba de nazarik','shinjuku','meio da rua','casa do saippe','oficina do ygoh','oficina do bolo',
-'boca de fumo','rpg','matagal']
+'boca de fumo','rpg','matagal','xique-xique bh']
     let sorteado = Math.floor(Math.random() * (resultados.length - 0) + 0)
 
     let div_result = document.getElementById('resultado3')
     div_result.innerHTML = resultados[sorteado]
+}
+
+function gacha4(){
+    gacha1()
+    gacha2()
+    gacha3()
 }
