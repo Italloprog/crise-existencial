@@ -32,6 +32,7 @@ h1{
 }
 
 h2{
+    font-size: 130%;
     text-decoration: underline;
 }
 
@@ -61,4 +62,8 @@ th,td{
 
 th{
     color: rgb(162, 39, 133);
+}
+
+.oculto{
+    display: none;
 }
